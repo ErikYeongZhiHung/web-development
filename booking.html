@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking date,time and venue</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+    </head>
+    <body>
+            <div class="jumbotron text-center">
+  <h1>Booking</h1>
+  <p>Fill in the form carefully</p> 
+</div>
+                <img src="logo.jpg" alt="logo" width="100" height="100">
+        <ul>
+        <li><a class="active" href="http://localhost/website2/public_html/furniture.html">Furniture</a></li>
+  <li><a href="http://localhost/website2/public_html/electronic%20device.html">Electronic devices</a></li>
+  <li><a href="http://localhost/website2/public_html/housing.html">Housing</a></li>
+  <li><a href="http://localhost/website2/public_html/transportation.html">Transportation</a></li>
+  <li><a href="http://localhost/website2/public_html/electrical%20device.html">Electrical device</a></li>
+</ul>
+
+
+                
+<form action="/action_page.php">
+    <label for="address">Address:</label>
+  <input type="text" id="address" name="address">
+    
+  <label for="birthday">Date for repair:</label>
+  <input type="date" id="repair" name="date of repair">
+  
+  
+  
+  <form action="/action_page.php">
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit">
+</form>
+  <div class="container">
+              <div class="row">
+    <div class="col-sm-4">
+      <h3>No desired repair service</h3>
+      <p>If your desired repair service is not listed anywhere in the system, we humbly apologized as we have not been able to provide such a wide variety of repair service as of now</p>
+      <p>Please do notify the admins about the missing repair service and we will try our best to add in into our list in the future</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Error report</h3>
+      <p>If you do encounter any errors or malfunction in the system, please do contact our admins about the error so it may be addressed ASAP</p>
+      <p>Admin's business number : 04-33445566</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Absence/Sloppy work</h3>        
+      <p>If you have encounter any repairmen that may did a sloppy repair service or repairmen who didn't even show up, please do contact us at this number for complaint/compensation</p>
+      <p>04-111222333</p>
+    </div>
+  </div>
+            </div>    </body>
+</html>
