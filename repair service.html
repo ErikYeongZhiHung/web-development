@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Repair services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=string] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+</style>
+</head>
+<body>
+        <div class="jumbotron text-center">
+  <h1>Repair Service</h1>
+  <p>Fill in your info carefully</p> 
+</div>
+    <h2>Repair services</h2>
+    <form action="/action_page.php">
+      <div class="container">
+    <label for="uname"><b>Name of individual/company</b></label>
+    <input type="text" placeholder="Enter Name" name="uname" required>
+    
+    <label for ="number"><b>Contact Number</b></label>
+    <input type="string" placeholder="Enter Contact Number" name="number" required>
+    
+    <label for ="area"><b>Area of coverage</b></label>
+    <input type="string" placeholder="Enter area of coverage" name="area" required>
+    
+    <label for ="expertise"><b>Area of expertise</b></label>
+    <input type="string" placeholder="Enter area of expertise" name="area" required>
+    </div>
+    
+        <button type="button">
+            <a href="http://localhost/website2/public_html/notification.html" target="_blank">Login</a>
+          </button>  
+</form>
+  <div class="container">
+              <div class="row">
+    <div class="col-sm-4">
+      <h3>No desired repair service</h3>
+      <p>If your desired repair service is not listed anywhere in the system, we humbly apologized as we have not been able to provide such a wide variety of repair service as of now</p>
+      <p>Please do notify the admins about the missing repair service and we will try our best to add in into our list in the future</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Error report</h3>
+      <p>If you do encounter any errors or malfunction in the system, please do contact our admins about the error so it may be addressed ASAP</p>
+      <p>Admin's business number : 04-33445566</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Absence/Sloppy work</h3>        
+      <p>If you have encounter any repairmen that may did a sloppy repair service or repairmen who didn't even show up, please do contact us at this number for complaint/compensation</p>
+      <p>04-111222333</p>
+    </div>
+  </div>
+            </div>
+</body>
+
+
+</html>
